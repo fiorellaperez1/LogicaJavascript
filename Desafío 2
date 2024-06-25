@@ -1,0 +1,63 @@
+// Solicita al usuario que ingrese el día de la semana
+let diaUsuario = prompt(' Qué día de la semana es? :');
+
+console.log(diaUsuario);
+
+// Verifica si el día ingresado es 'sabado' o 'domingo'
+if (diaUsuario == 'sabado' || diaUsuario == 'domingo') {
+    // Si es fin de semana, muestra mensajes de buen fin de semana
+    console.log('Buen fin de semana');
+    alert('Buen fin de semana');
+} else {
+    // Si no es fin de semana, muestra mensajes de buena semana
+    console.log('Buena semana!');
+    alert('Buena semana!');
+}
+
+// Solicita al usuario que ingrese un número
+let numeroUsuario = prompt('Escribe un numero');
+console.log("Número ingresado por el usuario:", numeroUsuario);
+
+// Verifica si el número es positivo, negativo o cero
+if (numeroUsuario > 0) {
+    // Si el número es positivo, muestra mensajes correspondientes
+    console.log('El número es positivo');
+    alert('El numero es positivo');
+} else if (numeroUsuario < 0) {
+    // Si el número es negativo, muestra mensajes correspondientes
+    console.log('El número es negativo');
+    alert('El numero es negativo');
+} else {
+    // Si el número es cero, muestra mensajes correspondientes
+    console.log('El número es cero');
+    alert('El numero es cero');
+}
+
+// Solicita al usuario que ingrese una puntuación
+let puntuacion = prompt('Puntuación obtenida:');
+console.log("Puntuación ingresada por el usuario:", puntuacion);
+
+// Verifica si la puntuación es mayor o igual a 100
+if (puntuacion >= 100) {
+    // Si la puntuación es 100 o más, muestra mensajes de felicitación
+    console.log('¡Felicidades, has ganado!');
+    alert('¡Felicidades, has ganado!');
+} else {
+    // Si la puntuación es menor a 100, muestra mensajes de ánimo para intentarlo nuevamente
+    console.log('Inténtalo nuevamente para ganar');
+    alert('Intentalo nuevamente para ganar');
+}
+
+// Solicita al usuario que ingrese su saldo
+let saldoCuenta = prompt('Ingrese su saldo:');
+console.log("Saldo ingresado por el usuario:", saldoCuenta);
+
+// Muestra el saldo ingresado al usuario
+alert(`Su saldo cuenta es ${saldoCuenta}`);
+
+// Solicita al usuario que ingrese su nombre
+let nombreUsuario = prompt('Ingrese su nombre');
+console.log("Nombre ingresado por el usuario:", nombreUsuario);
+
+// Da la bienvenida al usuario usando su nombre
+alert(`Bienvenido a esta plataforma ${nombreUsuario}`);
